@@ -1,0 +1,26 @@
+***************
+***questao_1***
+***************
+Is()
+1 aux = 1 -> Executado 1 vez.
+2 i ← 0 -> Executado 1 vez.
+3 enquanto i < n faça -> Executado n+1 vezes.
+4   aux = aux + i -> Executado n vezes.
+5   i ← i + 1 -> Executado n vezes.
+6 retorne aux -> Executado 1 vez.
+
+total = n + 1 + n + n + 1 + 1 + 1
+total = 3n + 4
+
+***************
+***questao_2***
+***************
+trocar_lista()
+1 i ← 0 -> Executado 1 vez.
+2 enquanto i < n faça -> Executado n+1 vezes.
+3   aux = L [ i ] -> Executado n vezes.
+4   L [ i ] = V[ i ] -> Executado n vezes.
+5   V[ i ] = aux -> Executado n vezes.
+6   i ← i + 1 -> Executado n vezes.
+total = 1 + n + 1 + n + n + n + n
+total = 5n+2
